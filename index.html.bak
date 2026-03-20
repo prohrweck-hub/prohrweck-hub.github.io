@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PatziLabs – Apps für Automatisierung & Technik</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+    <header class="site-header">
+        <a href="/" class="logo">
+            <div class="logo-icon">PL</div>
+            <div>
+                <div class="logo-text">PatziLabs</div>
+                <div class="logo-sub">APPS FÜR AUTOMATISIERUNG & TECHNIK</div>
+            </div>
+        </a>
+        <nav>
+            <a href="/" class="active">Apps</a>
+        </nav>
+    </header>
+
+    <h1>Werkzeuge für Techniker</h1>
+    <p class="subtitle">Schnelle, werbefreie Apps für den technischen Alltag. Offline. Kein Tracking. Kein Account.</p>
+
+    <!-- PLC DataSwap -->
+    <div class="app-card">
+        <div class="app-icon">⟲</div>
+        <div class="app-info">
+            <h3>PLC DataSwap</h3>
+            <p>Byte-Swap & Datentyp-Konverter für SPS-Programmierer, Inbetriebnehmer und Automatisierer. INT, WORD, DWORD, REAL – alle Swap-Varianten auf einen Blick.</p>
+            <div>
+                <span class="tag">SPS</span>
+                <span class="tag">MODBUS</span>
+                <span class="tag">ENDIANNESS</span>
+                <span class="tag">IEEE 754</span>
+            </div>
+            <br>
+            <div class="app-links">
+                <!-- <a href="https://play.google.com/store/apps/details?id=com.patzilabs.plcdataswap">Google Play</a> -->
+                <a href="apps/plc-dataswap/privacy.html">Datenschutz</a>
+                <a href="apps/plc-dataswap/support.html">Support</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Template für zukünftige Apps (auskommentiert)
+    <div class="app-card">
+        <div class="app-icon">?</div>
+        <div class="app-info">
+            <h3>Nächste App</h3>
+            <p>Beschreibung der nächsten App.</p>
+            <div class="app-links">
+                <a href="apps/APPNAME/privacy.html">Datenschutz</a>
+                <a href="apps/APPNAME/support.html">Support</a>
+            </div>
+        </div>
+    </div>
+    -->
+
+    <footer class="site-footer">
+        <p>&copy; 2026 PatziLabs. Alle Rechte vorbehalten.</p>
+        <p><a href="mailto:p.rohrweck@gmail.com">Kontakt</a></p>
+    </footer>
+
+</div>
+
+</body>
+</html>

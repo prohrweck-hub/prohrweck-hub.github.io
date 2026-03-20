@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLC DataSwap – Datenschutzerklärung / Privacy Policy</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+    <header class="site-header">
+        <a href="/" class="logo">
+            <div class="logo-icon">PL</div>
+            <div>
+                <div class="logo-text">PatziLabs</div>
+                <div class="logo-sub">APPS FÜR AUTOMATISIERUNG & TECHNIK</div>
+            </div>
+        </a>
+        <nav>
+            <a href="/">Apps</a>
+            <a href="privacy.html" class="active">Datenschutz</a>
+            <a href="support.html">Support</a>
+        </nav>
+    </header>
+
+    <h1>PLC DataSwap</h1>
+    <p class="subtitle">Datenschutzerklärung / Privacy Policy</p>
+
+    <!-- DEUTSCH -->
+    <h2>Datenschutzerklärung</h2>
+    <p><strong>Stand: März 2026</strong></p>
+
+    <h3>Zusammenfassung</h3>
+    <p>PLC DataSwap sammelt <strong>keine personenbezogenen Daten</strong>. Die App funktioniert vollständig offline und sendet keine Daten an Server.</p>
+
+    <h3>Welche Daten werden erhoben?</h3>
+    <p>Keine. Die App:</p>
+    <ul>
+        <li>erfordert keine Registrierung oder Anmeldung</li>
+        <li>sammelt keine Nutzungs-, Analyse- oder Diagnosedaten</li>
+        <li>verwendet kein Tracking, keine Analytics und keine Cookies</li>
+        <li>enthält keine Werbung</li>
+        <li>stellt keine Internetverbindung her</li>
+        <li>überträgt keine Daten an Server oder Dritte</li>
+    </ul>
+
+    <p>Alle Berechnungen werden ausschließlich lokal auf Ihrem Gerät durchgeführt. Eingegebene Werte werden nicht dauerhaft gespeichert und gehen beim Schließen der App verloren.</p>
+
+    <h3>Berechtigungen</h3>
+    <p>Die App benötigt keine besonderen Geräteberechtigungen (kein Internet, kein Speicherzugriff, keine Kamera, kein Standort, kein Mikrofon).</p>
+
+    <h3>Drittanbieter-Dienste und Bibliotheken</h3>
+    <p>Die App verwendet Open-Source-Bibliotheken (u.a. Flutter, Riverpod, Google Fonts) zur Darstellung der Benutzeroberfläche. Keine dieser Bibliotheken erfasst, überträgt oder verarbeitet personenbezogene Daten. Es werden keine Drittanbieter-Dienste zur Datenerfassung, Analyse, Werbung oder Nutzerprofilierung eingesetzt.</p>
+
+    <h3>Datenspeicherung</h3>
+    <p>Die App speichert keine Daten dauerhaft auf dem Gerät und erstellt keine Benutzerprofile. Es gibt keinen Account, keinen Login und keine Cloud-Synchronisation.</p>
+
+    <h3>Änderungen</h3>
+    <p>Diese Datenschutzerklärung kann bei Bedarf aktualisiert werden. Änderungen werden auf dieser Seite veröffentlicht. Die aktuelle Version gilt ab dem oben genannten Datum.</p>
+
+    <h3>Kontakt</h3>
+    <p>PatziLabs<br>E-Mail: <a href="mailto:p.rohrweck@gmail.com">p.rohrweck@gmail.com</a></p>
+
+    <h3>Markenhinweise</h3>
+    <p>Siemens®, TIA Portal®, S7-1200, S7-1500 und STEP 7 sind eingetragene Marken der Siemens AG. Modbus® ist eine eingetragene Marke von Schneider Electric. Diese App ist ein unabhängiges Werkzeug und steht in keiner Verbindung zu diesen Unternehmen.</p>
+
+    <div style="border-top: 1px solid var(--border); margin: 40px 0; padding-top: 32px;"></div>
+
+    <!-- ENGLISH -->
+    <h2>Privacy Policy (English)</h2>
+    <p><strong>Last updated: March 2026</strong></p>
+
+    <h3>Summary</h3>
+    <p>PLC DataSwap does <strong>not collect any personal data</strong>. The app works entirely offline and does not communicate with any servers.</p>
+
+    <h3>Data Collection</h3>
+    <p>None. The app does not require registration, does not collect usage or diagnostic data, does not use tracking or analytics, contains no advertising, does not establish internet connections, and does not transmit any data to servers or third parties.</p>
+    <p>All calculations are performed exclusively on your device. Entered values are not permanently stored and are lost when the app is closed.</p>
+
+    <h3>Permissions</h3>
+    <p>The app requires no special device permissions (no internet, no storage access, no camera, no location, no microphone).</p>
+
+    <h3>Third-Party Services and Libraries</h3>
+    <p>The app uses open-source libraries (including Flutter, Riverpod, Google Fonts) for rendering the user interface. None of these libraries collect, transmit, or process personal data. No third-party services are used for data collection, analytics, advertising, or user profiling.</p>
+
+    <h3>Data Storage</h3>
+    <p>The app does not permanently store any data on the device and does not create user profiles. There is no account system, no login, and no cloud synchronization.</p>
+
+    <h3>Changes</h3>
+    <p>This privacy policy may be updated as needed. Changes will be published on this page. The current version is effective as of the date stated above.</p>
+
+    <h3>Contact</h3>
+    <p>PatziLabs<br>Email: <a href="mailto:p.rohrweck@gmail.com">p.rohrweck@gmail.com</a></p>
+
+    <h3>Trademark Notice</h3>
+    <p>Siemens®, TIA Portal®, S7-1200, S7-1500 and STEP 7 are registered trademarks of Siemens AG. Modbus® is a registered trademark of Schneider Electric. This app is an independent tool and is not affiliated with or endorsed by these companies.</p>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 PatziLabs. Alle Rechte vorbehalten.</p>
+        <p><a href="/">Zurück zur Startseite</a></p>
+    </footer>
+
+</div>
+
+</body>
+</html>

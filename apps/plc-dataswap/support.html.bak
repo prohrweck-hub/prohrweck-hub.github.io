@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLC DataSwap – Support</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+    <header class="site-header">
+        <a href="/" class="logo">
+            <div class="logo-icon">PL</div>
+            <div>
+                <div class="logo-text">PatziLabs</div>
+                <div class="logo-sub">APPS FÜR AUTOMATISIERUNG & TECHNIK</div>
+            </div>
+        </a>
+        <nav>
+            <a href="/">Apps</a>
+            <a href="privacy.html">Datenschutz</a>
+            <a href="support.html" class="active">Support</a>
+        </nav>
+    </header>
+
+    <h1>PLC DataSwap</h1>
+    <p class="subtitle">Support & Hilfe</p>
+
+    <h2>Häufige Fragen</h2>
+
+    <h3>Was macht die App?</h3>
+    <p>PLC DataSwap ist ein Byte-Swap & Datentyp-Konverter für SPS-Programmierer. Du gibst einen Wert ein (DEC, HEX, BIN oder als Bytes) und siehst sofort alle Swap-Varianten mit DEC, HEX, BIN, Bytes, ASCII und REAL-Interpretation.</p>
+
+    <h3>Welche Swap-Varianten werden angezeigt?</h3>
+    <ul>
+        <li><strong>SWAP()</strong> – Siemens-Standardbefehl. 16-Bit: AB→BA, 32-Bit: ABCD→DCBA</li>
+        <li><strong>Word Swap</strong> – ABCD→CDAB (High/Low Word tauschen)</li>
+        <li><strong>SWAP je Word</strong> – ABCD→BADC (Bytes innerhalb jedes Words tauschen)</li>
+    </ul>
+
+    <h3>Welche Datentypen werden unterstützt?</h3>
+    <ul>
+        <li>INT, UINT, WORD (16-Bit)</li>
+        <li>DINT, UDINT, DWORD (32-Bit)</li>
+        <li>REAL (IEEE 754 Gleitkomma)</li>
+    </ul>
+
+    <h3>Warum zeigt REAL bei manchen Swap-Varianten „NaN/Inf"?</h3>
+    <p>Nicht jedes 32-Bit-Muster ergibt einen gültigen IEEE 754 Float. Wenn die Bytes in der falschen Reihenfolge sind, wird das Bitmuster als NaN (Not a Number) oder Infinity interpretiert. Das ist normal und hilft dir zu erkennen, welcher Swap der richtige ist – der sinnvolle Float-Wert zeigt dir die korrekte Byte-Order.</p>
+
+    <h3>Was bedeutet „Siemens SWAP()" in der App?</h3>
+    <p>Die Siemens-SPS-Funktion SWAP() kehrt alle Bytes um. Bei WORD: AB→BA, bei DWORD: ABCD→DCBA. Die App bildet dieses Verhalten korrekt ab und zeigt im SCL-Bereich kopierfähige Code-Beispiele.</p>
+
+    <h3>Braucht die App Internet?</h3>
+    <p>Nein. Alle Berechnungen passieren lokal auf deinem Gerät. Kein Server, kein Account, kein Tracking.</p>
+
+    <h3>Werden meine Eingaben gespeichert?</h3>
+    <p>Nein. Alle Werte gehen beim Schließen der App verloren. Es gibt keinen Verlauf und keine Cloud-Synchronisation.</p>
+
+    <h2>Problem melden oder Feature wünschen</h2>
+
+    <p>Du hast einen Fehler gefunden oder eine Idee für ein neues Feature?</p>
+
+    <div class="notice">
+        <strong>E-Mail:</strong> <a href="mailto:p.rohrweck@gmail.com?subject=PLC%20DataSwap%20-%20Feedback">p.rohrweck@gmail.com</a><br><br>
+        Bitte beschreibe möglichst genau:<br>
+        • Was hast du eingegeben?<br>
+        • Was hast du erwartet?<br>
+        • Was ist stattdessen passiert?<br>
+        • Welches Gerät und Android-Version nutzt du?
+    </div>
+
+    <h2>Geplante Features</h2>
+    <ul>
+        <li>Verlauf & Favoriten</li>
+        <li>Modbus Register-Decoder (2 Register → REAL mit Byte-Order-Auswahl)</li>
+        <li>Weitere Presets für gängige Geräte</li>
+        <li>Zusätzliche Copy-Formate (0x, 16#, dezimal, Bytes)</li>
+    </ul>
+
+    <h2>App-Info</h2>
+    <ul>
+        <li><strong>Version:</strong> 1.0.0</li>
+        <li><strong>Entwickler:</strong> PatziLabs</li>
+        <li><strong>Plattform:</strong> Android</li>
+        <li><strong>Preis:</strong> 2,99 € (einmalig, keine Werbung, keine In-App-Käufe)</li>
+    </ul>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 PatziLabs. Alle Rechte vorbehalten.</p>
+        <p><a href="/">Zurück zur Startseite</a></p>
+    </footer>
+
+</div>
+
+</body>
+</html>
